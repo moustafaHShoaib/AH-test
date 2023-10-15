@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="20" failures="0" errors="0" time="15.847">
+  <testsuite name="get Collections" errors="0" failures="0" skipped="0" timestamp="2023-10-15T10:18:54" time="1.44" tests="2">
+    <testcase classname="get Collections get Collection details unhappy flows Tests get collection with non-existing collectionId" name="get Collections get Collection details unhappy flows Tests get collection with non-existing collectionId" time="0.206">
+    </testcase>
+    <testcase classname="get Collections get Collection details unhappy flows Tests get collection with invalid Key" name="get Collections get Collection details unhappy flows Tests get collection with invalid Key" time="0.113">
+    </testcase>
+  </testsuite>
+  <testsuite name="get Collections" errors="0" failures="0" skipped="0" timestamp="2023-10-15T10:18:54" time="1.744" tests="1">
+    <testcase classname="get Collections get Collection images happy flows Tests get NL collection images with a valid key" name="get Collections get Collection images happy flows Tests get NL collection images with a valid key" time="0.613">
+    </testcase>
+  </testsuite>
+  <testsuite name="get cultures Collections" errors="0" failures="0" skipped="0" timestamp="2023-10-15T10:18:54" time="2.196" tests="5">
+    <testcase classname="get cultures Collections get cultures &apos;EN&apos; unhappy Tests get Cultures EN with invalid key" name="get cultures Collections get cultures &apos;EN&apos; unhappy Tests get Cultures EN with invalid key" time="0.177">
+    </testcase>
+    <testcase classname="get cultures Collections get cultures &apos;EN&apos; unhappy Tests get Cultures NL with invalid key" name="get cultures Collections get cultures &apos;EN&apos; unhappy Tests get Cultures NL with invalid key" time="0.073">
+    </testcase>
+    <testcase classname="get cultures Collections get cultures &apos;EN&apos; unhappy Tests get Undefined cultures" name="get cultures Collections get cultures &apos;EN&apos; unhappy Tests get Undefined cultures" time="0.412">
+    </testcase>
+    <testcase classname="get cultures Collections get cultures &apos;EN&apos; unhappy Tests get Cultures NL with p=10001" name="get cultures Collections get cultures &apos;EN&apos; unhappy Tests get Cultures NL with p=10001" time="0.24">
+    </testcase>
+    <testcase classname="get cultures Collections get cultures &apos;EN&apos; unhappy Tests get Cultures EN with p=10001" name="get cultures Collections get cultures &apos;EN&apos; unhappy Tests get Cultures EN with p=10001" time="0.201">
+    </testcase>
+  </testsuite>
+  <testsuite name="get Collections" errors="0" failures="0" skipped="0" timestamp="2023-10-15T10:18:54" time="2.462" tests="2">
+    <testcase classname="get Collections get Collection details happy flows Tests get EN collection with a valid key" name="get Collections get Collection details happy flows Tests get EN collection with a valid key" time="0.61">
+    </testcase>
+    <testcase classname="get Collections get Collection details happy flows Tests get NL collection with a valid key" name="get Collections get Collection details happy flows Tests get NL collection with a valid key" time="0.732">
+    </testcase>
+  </testsuite>
+  <testsuite name="get cultures Collections" errors="0" failures="0" skipped="0" timestamp="2023-10-15T10:18:54" time="15.677" tests="10">
+    <testcase classname="get cultures Collections get cultures &apos;EN&apos; Tests get Culture EN with valid key" name="get cultures Collections get cultures &apos;EN&apos; Tests get Culture EN with valid key" time="1.182">
+    </testcase>
+    <testcase classname="get cultures Collections get cultures &apos;EN&apos; Tests get Cultures EN with JSON format" name="get cultures Collections get cultures &apos;EN&apos; Tests get Cultures EN with JSON format" time="1.258">
+    </testcase>
+    <testcase classname="get cultures Collections get cultures &apos;EN&apos; Tests get Cultures EN with jsonp format" name="get cultures Collections get cultures &apos;EN&apos; Tests get Cultures EN with jsonp format" time="1.431">
+    </testcase>
+    <testcase classname="get cultures Collections get cultures &apos;EN&apos; Tests get Cultures EN with xml format" name="get cultures Collections get cultures &apos;EN&apos; Tests get Cultures EN with xml format" time="1.551">
+    </testcase>
+    <testcase classname="get cultures Collections get cultures &apos;EN&apos; Tests get Cultures EN with p=0" name="get cultures Collections get cultures &apos;EN&apos; Tests get Cultures EN with p=0" time="1.005">
+    </testcase>
+    <testcase classname="get cultures Collections get cultures &apos;NL&apos; Tests get Culture NL with valid key" name="get cultures Collections get cultures &apos;NL&apos; Tests get Culture NL with valid key" time="2.019">
+    </testcase>
+    <testcase classname="get cultures Collections get cultures &apos;NL&apos; Tests get Cultures NL with JSON format" name="get cultures Collections get cultures &apos;NL&apos; Tests get Cultures NL with JSON format" time="1.159">
+    </testcase>
+    <testcase classname="get cultures Collections get cultures &apos;NL&apos; Tests get Cultures NL with jsonp format" name="get cultures Collections get cultures &apos;NL&apos; Tests get Cultures NL with jsonp format" time="1.02">
+    </testcase>
+    <testcase classname="get cultures Collections get cultures &apos;NL&apos; Tests get Cultures NL with xml format" name="get cultures Collections get cultures &apos;NL&apos; Tests get Cultures NL with xml format" time="2.893">
+    </testcase>
+    <testcase classname="get cultures Collections get cultures &apos;NL&apos; Tests get Cultures NL with p=0" name="get cultures Collections get cultures &apos;NL&apos; Tests get Cultures NL with p=0" time="1.021">
+    </testcase>
+  </testsuite>
+</testsuites>

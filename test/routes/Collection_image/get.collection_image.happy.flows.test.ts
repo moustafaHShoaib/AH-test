@@ -13,8 +13,6 @@ import { serviceUrl } from "../../utils";
  * Test Module
  */
 
-beforeAll(async (): Promise<void> => {});
-
 describe("get Collections", () => {
   describe("get Collection images happy flows Tests", () => {
     test("get NL collection images with a valid key", async () => {
@@ -23,7 +21,15 @@ describe("get Collections", () => {
         .set("content-type", "application/JSON")
         .expect(200);
 
+
+      let imageObject = JSON.parse(response.text);
       expect(response.text).toHaveLength(94306);
+      expect(imageObject.levels[0].name).toContain('z3')
+      expect(imageObject.levels[1].name).toContain('z4')
+      expect(imageObject.levels[2].name).toContain('z0')
+      expect(imageObject.levels[3].name).toContain('z1')
+      expect(imageObject.levels[4].name).toContain('z2')
+      expect(imageObject.levels[5].name).toContain('z5')
     });
   });
 });
