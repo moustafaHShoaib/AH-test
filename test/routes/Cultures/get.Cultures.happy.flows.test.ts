@@ -56,7 +56,8 @@ describe("get cultures Collections", () => {
         "text/javascript; charset=utf-8"
       );
 
-      expect(response.body.artObjects).toBeUndefined();
+      expect(response.body.count).toBeGreaterThan(0);
+      expect(response.body.artObjects).not.toBeNull();
     });
 
     /*
@@ -74,7 +75,8 @@ describe("get cultures Collections", () => {
         "application/xml; charset=utf-8"
       );
 
-      expect(response.body.artObjects).toBeUndefined();
+      expect(response.body.count).toBeGreaterThan(0);
+      expect(response.body.artObjects).not.toBeNull();
     });
 
     test("get Cultures EN with p=0", async () => {
